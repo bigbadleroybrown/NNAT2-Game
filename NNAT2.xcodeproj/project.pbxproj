@@ -24,6 +24,8 @@
 		2E3CA61918F835B1000E1C2B /* Answer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3CA61818F835B1000E1C2B /* Answer.m */; };
 		2E3CA61C18F835BD000E1C2B /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3CA61B18F835BD000E1C2B /* Question.m */; };
 		2E3CA61E18F8361A000E1C2B /* PuzzleTest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E3CA61D18F8361A000E1C2B /* PuzzleTest.plist */; };
+		2E7F494619008CF400CC3A32 /* PuzzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7F494519008CF400CC3A32 /* PuzzleViewController.m */; };
+		2E7F494919008D2800CC3A32 /* PuzzleGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7F494819008D2800CC3A32 /* PuzzleGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,10 @@
 		2E3CA61A18F835BD000E1C2B /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Question.h; path = ../Question.h; sourceTree = "<group>"; };
 		2E3CA61B18F835BD000E1C2B /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Question.m; path = ../Question.m; sourceTree = "<group>"; };
 		2E3CA61D18F8361A000E1C2B /* PuzzleTest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PuzzleTest.plist; sourceTree = "<group>"; };
+		2E7F494419008CF400CC3A32 /* PuzzleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzzleViewController.h; sourceTree = "<group>"; };
+		2E7F494519008CF400CC3A32 /* PuzzleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzzleViewController.m; sourceTree = "<group>"; };
+		2E7F494719008D2800CC3A32 /* PuzzleGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzzleGame.h; sourceTree = "<group>"; };
+		2E7F494819008D2800CC3A32 /* PuzzleGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzzleGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +128,11 @@
 			children = (
 				2E3CA5F118F835A0000E1C2B /* AppDelegate.h */,
 				2E3CA5F218F835A0000E1C2B /* AppDelegate.m */,
+				2E7F494719008D2800CC3A32 /* PuzzleGame.h */,
+				2E7F494819008D2800CC3A32 /* PuzzleGame.m */,
 				2E3CA5F418F835A0000E1C2B /* Main.storyboard */,
+				2E7F494419008CF400CC3A32 /* PuzzleViewController.h */,
+				2E7F494519008CF400CC3A32 /* PuzzleViewController.m */,
 				2E3CA61718F835B1000E1C2B /* Answer.h */,
 				2E3CA61818F835B1000E1C2B /* Answer.m */,
 				2E3CA61A18F835BD000E1C2B /* Question.h */,
@@ -265,6 +275,8 @@
 			files = (
 				2E3CA5F918F835A0000E1C2B /* ViewController.m in Sources */,
 				2E3CA5F318F835A0000E1C2B /* AppDelegate.m in Sources */,
+				2E7F494919008D2800CC3A32 /* PuzzleGame.m in Sources */,
+				2E7F494619008CF400CC3A32 /* PuzzleViewController.m in Sources */,
 				2E3CA61C18F835BD000E1C2B /* Question.m in Sources */,
 				2E3CA5EF18F835A0000E1C2B /* main.m in Sources */,
 				2E3CA61918F835B1000E1C2B /* Answer.m in Sources */,
@@ -476,6 +488,7 @@
 				2E3CA61318F835A0000E1C2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E3CA61418F835A0000E1C2B /* Build configuration list for PBXNativeTarget "NNAT2Tests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +497,7 @@
 				2E3CA61618F835A0000E1C2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

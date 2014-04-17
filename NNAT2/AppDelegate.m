@@ -16,26 +16,7 @@
 {
     // Override point for customization after application launch.
     
-    NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"PuzzleTest" ofType:@"plist"];
-    NSArray *questionsDictionarys = [NSArray arrayWithContentsOfFile:plistPath];
     
-    NSMutableArray *questionsObjects = [[NSMutableArray alloc] init];
-    
-    for (NSDictionary *questionDictionary in questionsDictionarys) {
-        NSMutableArray *answerObjects = [[NSMutableArray alloc] init];
-        
-        for (NSDictionary *answerDictionary in questionDictionary [@"Answers"]) {
-            Answer *answer = [[Answer alloc] initWithFileName:answerDictionary [@"fileName"] isCorrect: [answerDictionary [@"isCorrect"] boolValue]];
-            [answerObjects addObject:answer];
-        }
-        
-        Question *question = [[Question alloc]initWithFileName: questionDictionary [@"fileName"] answers: answerObjects];
-        
-        [questionsObjects addObject:question];
-        
-    }
-    
-    NSLog(@"%@", questionsObjects);
     
     return YES;
 }

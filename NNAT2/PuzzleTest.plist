@@ -4,74 +4,36 @@
 <array>
 	<dict>
 		<key>fileName</key>
-		<string>bigImage</string>
+		<string>Mainpuzzle</string>
 		<key>Answers</key>
 		<array>
 			<dict>
 				<key>fileName</key>
-				<string>stripedBlueB</string>
+				<string>AnswerA</string>
 				<key>isCorrect</key>
 				<true/>
 			</dict>
 			<dict>
 				<key>fileName</key>
-				<string>stripedBlueA</string>
+				<string>AnswerB</string>
 				<key>isCorrect</key>
 				<false/>
-			</dict>
-            <dict>
-				<key>fileName</key>
-				<string>stripedBlueA</string>
-				<key>isCorrect</key>
-				<false/>
-			</dict>
-            <dict>
-				<key>fileName</key>
-				<string>stripedBlueA</string>
-				<key>isCorrect</key>
-				<false/>
-			</dict>
-            <dict>
-				<key>fileName</key>
-				<string>stripedBlueA</string>
-				<key>isCorrect</key>
-				<false/>
-			</dict>
-		</array>
-	</dict>
-    
-    <dict>
-		<key>fileName</key>
-		<string>bigImage</string>
-		<key>Answers</key>
-		<array>
-			<dict>
-				<key>fileName</key>
-				<string>stripedBlueB</string>
-				<key>isCorrect</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>fileName</key>
-				<string>stripedBlueA</string>
+				<string>AnswerC</string>
 				<key>isCorrect</key>
 				<false/>
 			</dict>
-            <dict>
+			<dict>
 				<key>fileName</key>
-				<string>stripedBlueA</string>
+				<string>AnswerD</string>
 				<key>isCorrect</key>
 				<false/>
 			</dict>
-            <dict>
+			<dict>
 				<key>fileName</key>
-				<string>stripedBlueA</string>
-				<key>isCorrect</key>
-				<false/>
-			</dict>
-            <dict>
-				<key>fileName</key>
-				<string>stripedBlueA</string>
+				<string>AnswerE</string>
 				<key>isCorrect</key>
 				<false/>
 			</dict>
